@@ -2,21 +2,35 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>text</title>
+<title>^ first text</title>
+
+<!-- Подключение Roboto Mono -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 
 <style>
 body {
     background-color: #0b0b0b;
     color: #eaeaea;
-    font-family: monospace;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
     padding: 80px 20px;
     max-width: 700px;
-    margin: auto;
+    margin-left: 120px; /* совпадает с index.html */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: monospace; /* оставляем как на главной */
+    margin-bottom: 20px;
 }
 
 a {
     color: #888;
     text-decoration: none;
+    font-weight: 600;
 }
 
 a:hover {
@@ -26,17 +40,23 @@ a:hover {
 .date {
     color: #666;
     margin-top: 40px;
+    font-weight: 500;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 </style>
 </head>
 
 <body>
 
-<h1># first text</h1>
+<h1>^ first text</h1>
 
 <p>
-your text here...<br><br>
-write whatever you want.
+Write your text here...<br><br>
+You can split it into paragraphs and add more content as needed.
 </p>
 
 <div class="date">March 2026</div>
