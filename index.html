@@ -8,25 +8,30 @@
 body {
     background-color: #0b0b0b;
     color: #eaeaea;
-    font-family: monospace;
+    font-family: "Courier New", monospace;
+    font-weight: 500;
     padding: 80px 20px;
     max-width: 700px;
-    margin: auto;
+    margin-left: 120px; /* сдвиг чуть влево */
 }
 
 h1 {
     font-size: 26px;
     margin-bottom: 5px;
+    font-weight: 700;
+    font-family: monospace; /* оставляем как было */
 }
 
 .subtitle {
     color: #777;
     margin-bottom: 30px;
+    font-weight: 600;
 }
 
 a {
     color: #eaeaea;
     text-decoration: none;
+    font-weight: 600;
 }
 
 a:hover {
@@ -35,15 +40,18 @@ a:hover {
 
 .nav {
     margin-bottom: 40px;
+    font-weight: 600;
 }
 
 .post {
     margin-bottom: 25px;
+    margin-left: 20px; /* отступ как "пробел" */
 }
 
 .date {
     color: #666;
     font-size: 14px;
+    font-weight: 500;
 }
 </style>
 </head>
@@ -51,16 +59,15 @@ a:hover {
 <body>
 
 <h1>morphem</h1>
-<div class="subtitle">personal blog</div>
+<div class="subtitle">intimate space</div>
 
 <div class="nav">
-    <a href="#">blog</a> /
     <a href="#">poetry</a> /
-    <a href="#">stories</a>
+    <a href="#">sketch</a>
 </div>
 
 <div class="post">
-    <a href="post1.html"># first text</a>
+    <a href="post1.html">^ first text</a>
     <div class="date">Mar 2026</div>
 </div>
 
