@@ -10,10 +10,9 @@ body { background:#0b0b0b; color:#eaeaea; font-family:'Roboto Mono', monospace; 
 h1 { font-size:26px; margin-bottom:5px; font-weight:700; font-family:monospace; }
 a { color:#eaeaea; text-decoration:none; font-weight:600; }
 a:hover { text-decoration:underline; }
-.nav { margin-bottom:40px; font-weight:600; }
 .post { margin-bottom:25px; margin-left:20px; }
 .date { color:#666; font-size:14px; font-weight:500; }
-.morphem { position:absolute; top:20px; left:20px; font-weight:700; font-family:monospace; }
+.morphem { position:fixed; top:15px; left:15px; font-weight:700; font-family:monospace; font-size:22px; z-index:999; }
 @media(max-width:768px){body{margin-left:20px;padding:60px 15px;}}
 </style>
 </head>
@@ -25,6 +24,16 @@ a:hover { text-decoration:underline; }
 
 <div class="post">
     <a href="posts/post1.html">^ first text</a>
+    <div class="date">Mar 2026</div>
+</div>
+
+<div class="post">
+    <a href="posts/post2.html">^ second text</a>
+    <div class="date">Mar 2026</div>
+</div>
+
+<div class="post">
+    <a href="posts/post3.html">^ third text</a>
     <div class="date">Mar 2026</div>
 </div>
 
